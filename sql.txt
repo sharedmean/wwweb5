@@ -1,0 +1,13 @@
+drop table application;
+CREATE TABLE application (
+    id int(10) unsigned NOT NULL AUTO_INCREMENT,
+    fio varchar(128) NOT NULL DEFAULT '',
+    email varchar(128) NOT NULL DEFAULT '',
+   date varchar(128) NOT NULL DEFAULT '',
+    sex varchar(128) NOT NULL DEFAULT '',
+    limbs varchar(2) NOT NULL DEFAULT '',
+   bio varchar(128) NOT NULL DEFAULT '',
+  login varchar(128) NOT NULL DEFAULT '',
+ pass varchar(128) NOT NULL DEFAULT '',
+     PRIMARY KEY (id)
+   );
